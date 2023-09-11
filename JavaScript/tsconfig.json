@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "outDir": "./js",
+        "inlineSourceMap": false,
+        "typeRoots": [
+            "@types"
+        ],
+        "module": "commonjs",
+        "target": "es6",
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "noImplicitAny": true,
+        "esModuleInterop": false,
+        "sourceMap": false
+    },
+    "include": [
+        "./ts",
+        "@types"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts",
+        "**/*.js.map"
+    ]
+}
